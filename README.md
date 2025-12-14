@@ -65,13 +65,6 @@ pokemon_gradcam_starter/
 └── README.md                 # This file
 ```
 
-## 📖 Documentation
-
-- **[TRAINING_GUIDE.md](TRAINING_GUIDE.md)**: Complete training documentation
-- **[MODEL_USAGE.md](MODEL_USAGE.md)**: How to use trained models
-- **[POSTER_CONTENT.md](POSTER_CONTENT.md)**: Content guide for presentations
-- **[POSTER_IMAGES_GUIDE.md](POSTER_IMAGES_GUIDE.md)**: Which images to include
-
 ## 🔧 Usage Examples
 
 ### Training
