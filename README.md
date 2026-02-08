@@ -117,7 +117,7 @@ python run_explainability.py \
 - Human-readable text reports
 - Error pattern insights
 
-## 🎓 Example Results
+##  Example Results
 
 ### Correct Prediction
 - **Model focuses on**: Distinctive features (e.g., Bulbasaur's plant bulb)
