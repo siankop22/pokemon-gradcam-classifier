@@ -2,7 +2,7 @@
 
 A complete PyTorch implementation for training a Pokémon classifier and analyzing model decisions using Grad-CAM (Gradient-weighted Class Activation Mapping) visualizations.
 
-## 🎯 Features
+##  Features
 
 - **Model Training**: Train ResNet or EfficientNet models on Pokémon images
 - **Grad-CAM Visualizations**: See where the model focuses when making predictions
@@ -10,14 +10,14 @@ A complete PyTorch implementation for training a Pokémon classifier and analyzi
 - **Explainability Reports**: Detailed analysis of correct vs incorrect predictions
 - **Pattern Detection**: Analyze similar colors/shapes causing confusion
 
-## 📊 Results
+##  Results
 
 - **Accuracy**: 80% on test set (16/20 correct predictions)
 - **Model**: ResNet18 with ImageNet pretrained weights
 - **Classes**: 82 Pokémon species
 - **Visualizations**: Grad-CAM heatmaps for all predictions
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -45,7 +45,7 @@ python run_explainability.py \
     --max_samples 20
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 pokemon_gradcam_starter/
@@ -65,7 +65,7 @@ pokemon_gradcam_starter/
 └── README.md                 # This file
 ```
 
-## 🔧 Usage Examples
+##  Usage Examples
 
 ### Training
 
@@ -99,7 +99,7 @@ python run_explainability.py \
     --max_samples 100
 ```
 
-## 📈 Key Features
+##  Key Features
 
 ### Grad-CAM Visualizations
 - Heatmaps showing where the model focuses
@@ -129,7 +129,7 @@ python run_explainability.py \
 - **Attention intensity**: Lower (0.30 average)
 - **Common causes**: Similar colors, similar shapes
 
-## 🔬 Technical Details
+##  Technical Details
 
 - **Framework**: PyTorch
 - **Architectures**: ResNet18/34/50/101/152, EfficientNet-B0/B1/B2
@@ -137,7 +137,7 @@ python run_explainability.py \
 - **Normalization**: ImageNet statistics
 - **Grad-CAM**: Custom implementation using `torch.autograd.grad`
 
-## 📝 Requirements
+##  Requirements
 
 - Python 3.7+
 - PyTorch 1.9+
@@ -147,21 +147,21 @@ python run_explainability.py \
 - pillow
 - numpy
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Grad-CAM paper: Selvaraju et al., "Grad-CAM: Visual Explanations from Deep Networks"
 - PyTorch and torchvision teams
 - Pokémon images dataset
 
-## 📧 Contact
+##  Contact
 
 For questions or suggestions, please open an issue on GitHub.
 
